@@ -1,6 +1,3 @@
-local comp = require("cc.shell.completion")
-shell.setCompletionFunction("custom/programs/tab_edit.lua", comp.build(comp.file))
-
 local args = {...}
 
 if args[1] ~= nil then
