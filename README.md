@@ -1,12 +1,10 @@
 # CC-Tweaked-New-Tab-Edit
 A small utility script for cc:tweaked to help the user edit multiple scripts in separate tabs.
 
-This script includes an auto-complete feature, That was implemented using the "cc.shell.completion" built-in module, to easily navigate directories.
+This script includes an autocomplete feature, That was implemented using the "cc.shell.completion" built-in module, to easily navigate directories.
 
 # Installation
-Drag and drop both "custom" and "update_path.lua" into the id folder of the computer you wish to install onto.
+Drag and drop both "custom" and "startup.lua" into the id folder of the computer you wish to install onto.
 
 ## Notes
-Make sure to run the "update_path.lua" file to properly use the script from any directory inside the shell.
-
-You could copy the script from "update_path.lua" and write it into "startup.lua" which should be created in the root directory of the computer.
+The "startup.lua" file contains code that will ensure autocomplete feature on startup for Tab-edit
